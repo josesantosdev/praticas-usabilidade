@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 02 03</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        body{
+            background-color: darkorange;
+        }
+
+        button{
+            padding: 15px;
+            background-color: aqua;
+            border-radius: 5px;
+            border: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <form action="https://www.google.com/">
+            <label for="name">Name: <input type="text" placeholder="informe seu nome"></label>
+            <label for="escolariade">Escolariade:
+                <label for="Fundamental"><input type="radio" name="Fundamental" id="">Fundamental</label>
+                <label for="Medio"><input type="radio" name="Fundamental" id="">Médio</label>
+                <label for="Superior"><input type="radio" name="Fundamental" id="">Superior</label>
+            </label>
+            <label for="Veiculo">Veículo:
+                <label for="Bicicleta"><input type="checkbox" name="bicicleta" id="">Bicicleta</label>
+                <label for="Moto"><input type="checkbox" name="Moto" id="">Moto</label>
+                <label for="Carro"><input type="checkbox" name="Carro" id="">Carro</label>
+            </label>
+            <label for="Enviar"><button>Enviar</button></label>
+        </form>
+    </main>
+</body>
+
+</html>
