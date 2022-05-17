@@ -1,0 +1,39 @@
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid lightblue;
+}
+
+thead {
+    height: 50px;
+    background-color: darkblue;
+    margin: 0;
+    color: white;
+}
+
+td {
+    border: 1px solid lightblue;
+}
+
+.black {
+    background-color: lightskyblue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+tr:hover {
+    background-color: #ffffff !important;
+    color: #FF4500;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #8b9dc3;
+}
+
+tr:nth-child(odd) {
+    background-color: #dfe3ee;
+}
