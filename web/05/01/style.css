@@ -1,0 +1,17 @@
+*{
+    width: 100%;
+    font-size: 14px;
+}
+
+img{
+    width: 80%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+img:hover{
+ opacity: 80%;
+}
