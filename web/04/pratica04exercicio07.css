@@ -1,0 +1,28 @@
+*{
+    padding: 1rem;
+}
+
+
+body{
+    vertical-align: top;
+}
+
+
+tr:hover {
+    background-color: white !important;
+    color: #FF4500;
+    
+}
+
+.first{
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #8b9dc3;
+}
+
+tr:nth-child(odd) {
+    background-color: #dfe3ee;
+}
+

@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: sans-serif !important;
+    
+
+}
+
+.top-bar{
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    width: 80em;
+    height: 4.89em;
+}
+
+
+main{
+    width: 80em;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 3.89em;
+    fill:white;
+    margin: 0em 1em;
+}
+
+h1{
+    color:white;
+    font-size: 1.78em;
+    font-family: sans-serif;
+   
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F49237;
+    padding-bottom: 1.3em;
+    padding-top: 1.3em;
+    width: 100%;
+
+}
+
+img{
+    width: 13.77em;
+    height: 19.82em;
+}
+
+.col-3{
+    margin: 0.6em 0.6em;
+}
+
+img:hover{
+    box-shadow: 5px 5px 5px #151515;
+    opacity: 90%;
+    transition-duration:0.4s;
+}
+
+.footer{
+    display: flex;
+    background-color:#151515;
+    width: 100%;
+    height: 2em;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.29em;
+
+}
+
+.address{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social ol{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.social li{
+    display: inline;
+    padding-left: 1em;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
+
+.social a:hover{
+    text-decoration: none;
+    color: #F49237;
+}
+
+.whats{
+    width: 14px;
+    fill: white;
+    margin-right: 5px;
+}
+
+.linked{
+    width: 14px;
+    fill: white;
+    margin-right: 5px;
+
+}
+h2{
+    background-color: #F49237;
+    padding: 10px 0px 0px 40px;
+    font-size: 1.6em;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+@media only screen and (max-width: 768px) {
+    main{
+        width: 100%;
+    }
+
+    .footer{
+        font-size: 0.6em;
+        height: 3em;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: initial;
+        font-size: 0.9em;
+        
+    }
+
+    .logo{
+        height: 30px;
+        margin: 0.3em 0.3em;
+    }
+
+    .top-bar{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        width: 300px;
+        height: 450px;
+        
+    }
+}
+
