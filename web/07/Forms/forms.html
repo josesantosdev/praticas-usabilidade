@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Cadastro</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cadastro de Funcionário</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="row">
+    <div class="titulo">
+      <h2>Cadastro de funcionários</h2>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">cadastro</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+  <br>
+  <div>
+    <h3>Formulário de cadastro</h3>
+    <br>
+    <p>Preencha todas as informações necessárias para cadastrar o funcionário.</p>
+  </div>
+  <br>
+  <form style="display: inline-grid;">
+
+    <label for="exampleInputEmail1">Nome Completo</label>
+    <input type="text" class="pupu" id="exampleInputEmail1" aria-describedby="nome" placeholder="Insira seu nome">
+    <br>
+    <label for="exampleInputEmail1">Endereço de email</label>
+    <input type="email" class="pupu" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Insira seu endereço de email">
+    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+    <br>
+    <label for="dataNasc">Data de Nascimento</label>
+    <input type="date" class="pupu" id="data" placeholder="DD/MM/AAAA">
+    <br>
+    <label for="cpf">CPF</label>
+    <input type="text" class="pupu" id="cpf" placeholder="Insira seu CPF">
+    <br>
+    <label for="rg">RG</label>
+    <input type="text" class="pupu" id="rg" placeholder="Insira o seu RG">
+    <br>
+    <label for="ender">Endereço</label>
+    <input type="text" class="pupu" id="endereço" aria-describedby="endereço" placeholder="Ensira seu endereço">
+    <br>
+    <label for="exampleInputEmail1">Cidade</label>
+    <input type="text" class="pupu" id="endereço" aria-describedby="cidade" placeholder="Insira o nome da sua cidade">
+    <br>
+    <label for="estado">Estado</label>
+    <input type="text" class="pupu" id="endereço" aria-describedby="" placeholder="Insira o nome do seu estado">
+    <br>
+    <label for="matricula">Matrícula</label>
+    <input type="text" class="pupu" id="matricula" aria-describedby="emailHelp" placeholder="Informe sua matrícula">
+    <br>
+    <label for="telefone">Telefone</label>
+    <input type="tel" class="pupu" id="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" aria-describedby="telfone"
+      placeholder="(00) 0000-0000">
+    <br>
+    <label for="">Cargo</label>
+    <input type="text" class="pupu" id="cargo" aria-describedby="cargo" placeholder="Insira o seu cargo">
+    <br>
+    <br>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+  <br>
+  <br>
+  <footer>
+    <p>Desenvolvido como exercício da UC Usabilidade, Desenvolvimento Web,
+      Mobile e Jogos. ©Copyright 2022. Todos os Direitos Reservados.</p>
+  </footer>
+</body>
